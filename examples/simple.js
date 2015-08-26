@@ -3,24 +3,24 @@ var webdriverio = require('webdriverio');
 
 // single browser
 var singleClient = webdriverio.remote({
-    desiredCapabilities: {
-        browserName: 'chrome'
-    }
+	desiredCapabilities: {
+		browserName: 'chrome'
+	}
 });
 
 
 // multiple browsers
 var multiClient = webdriverio.multiremote({
-    myChromeBrowser: {
-        desiredCapabilities: {
-            browserName: 'chrome'
-        }
-    },
-    myFirefoxBrowser: {
-        desiredCapabilities: {
-            browserName: 'firefox'
-        }
-    }
+	myChromeBrowser: {
+		desiredCapabilities: {
+			browserName: 'chrome'
+		}
+	},
+	myFirefoxBrowser: {
+		desiredCapabilities: {
+			browserName: 'firefox'
+		}
+	}
 });
 
 var client = singleClient;

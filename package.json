@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "simple": "node ./examples/simple",
-    "simple-assertion": "mocha ./examples/simple-assertion"
+    "simple-assertion": "mocha ./examples/simple-assertion",
+    "facebook": "node ./examples/facebook --email=$FB_EMAIL --pass=$FB_PASS"
   },
   "author": "",
   "license": "MIT",
@@ -14,5 +15,8 @@
     "mocha": "^2.2.5",
     "selenium-webdriver": "^2.45.1",
     "webdriverio": "^3.2.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
   }
 }
