@@ -28,27 +28,27 @@
 ---
 
 # API
-
-
----
-
-# Use Cases
-
-## Task Automation
-
-## Regression Testing
+- WebDriver APIs [🔗](http://selenium.googlecode.com/git/docs/api/javascript/index.html) [🔗](https://code.google.com/p/selenium/wiki/WebDriverJs)
+- WebDriver IO API [🔗](http://webdriver.io/api.html)
 
 ---
 
-# Non-use Case
+# Demo
 
-- TDD?
-- Where does this fit into a testing stack?
-  - Structured JS frameworks and back-end stacks already have established testing patterns.
-  - Selenium tests integration of front-end and back-end
-- Pre-design testing:
-  - form validation
-  - page meta
-  -
+- Simple
+- Facebook (task automation)
+- Mocha
+- Cucumber
+
+---
+
+# Should/Can we do this?
+
+- Testing UI is hard because its usually not fully defined until launch
+- Test business-critical functionality
+- Realistic use cases:
+    - We inherit a code base from a client and are tasked with maintenance + new features
+    - We develop a new site with business-critical transactions (forms)
+    - We have a brittle piece of software that breaks often during maintenance.
 
 ---
