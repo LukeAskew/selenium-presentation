@@ -1,6 +1,6 @@
 /**
  * Log .25 hrs to education and learning task
- * Set env vars FB_EMAIL and FB_PASS before running
+ * Set env vars FB_EMAIL and FB_PASS before running: `export FB_EMAIL=email@example.com && export FB_PASS=YourPassword` 
  */
 var webdriverio = require('webdriverio');
 var argv = require('minimist')(process.argv.slice(2));
